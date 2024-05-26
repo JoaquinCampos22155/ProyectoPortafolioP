@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Radio_Canada } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Header from "@/components/header";
 
 const radio_canada = Radio_Canada({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={radio_canada.className}>
         <Navbar />
+        <Header />
         {children}
       </body>
 
