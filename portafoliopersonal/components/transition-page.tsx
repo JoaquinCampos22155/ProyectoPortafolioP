@@ -11,7 +11,7 @@ const TransitionPage = () => {
                 initial = "initial"
                 animate = "animate"
                 exit="exit"
-                transition={{delay: 0.1, duration: 0.5, ease: "circIn"}}>
+                transition={{delay: 0.1, duration: 0.5, ease:"easeIn"}}>
 
                 </motion.div>
             </div>

@@ -8,7 +8,7 @@ const Header = () => {
             <header>
                 <div className="container justify-between max-w-6xl mx-auto">
                     <Link href ="/">
-                        <h1 className="my-3 text-4jx1 font-bold text-center md:text-center">
+                        <h1 className="my-3 text-2xl font-bold text-center md:text-center">
                             JJ
                             <span className="text-secondary">
                                 Campos

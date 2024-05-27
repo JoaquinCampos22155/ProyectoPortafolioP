@@ -101,13 +101,6 @@ export const dataCounter = [
         lineRight: true,
         lineRightMobile: true,
     },
-    {
-        id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
-        lineRight: false,
-        lineRightMobile: false,
-    },
 ];
 
 export const serviceData = [
