@@ -1,9 +1,12 @@
+import TransitionPage from "@/components/transition-page";
+
 const PageProjects = () => {
     return ( 
-        <div>
-            projects
-        </div>
+        <>
+            <TransitionPage />
+        </>
+    
      );
 }
  
-export default PageProjects ;
+export default PageProjects;
