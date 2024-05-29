@@ -9,17 +9,17 @@ export const socialNetworks = [
     {
         id: 1,
         logo: <Instagram size={40} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.instagram.com/joaquin_campos10?igsh=OHM2amNqMmprdHh6&utm_source=qr",
     },
     {
         id: 2,
         logo: <Linkedin size={40} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/joaqu%C3%ADn-campos-enr%C3%ADquez-770b2522b/",
     },
     {
         id: 3,
         logo: <Github size={40} strokeWidth={1} />,
-        src: "#!",
+        src: "https://github.com/JoaquinCampos22155",
     },
     
 ];
@@ -161,10 +161,10 @@ export const dataPortfolio = [
     },
     {
         id: 3,
-        title: "Estrategias Web",
+        title: "Calculadora",
         image: "/image-3.jpg",
         urlGithub: "https://github.com/JoaquinCampos22155/lab8CT",
-        urlDemo: "#!",
+        urlDemo: "https://github.com/JoaquinCampos22155/lab8CT",
     }
 ];
 
