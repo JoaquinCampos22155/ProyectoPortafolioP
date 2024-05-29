@@ -1,4 +1,9 @@
 import { BookText, CodeSquare, HomeIcon,Instagram,Github, Brain,  UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { IoLogoCss3 } from "react-icons/io";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaJava, FaPython, FaHtml5, FaDocker, FaReact, FaNodeJs, FaGithub} from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { SiPostgresql, SiNextdotjs, SiVercel, SiExpress, SiTailwindcss, SiTypescript} from "react-icons/si";
 
 export const socialNetworks = [
     {
@@ -74,87 +79,91 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        icon: <IoLogoCss3 />,
+        title: "CSS",
     },
     {
-        icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
+        icon: <IoLogoJavascript />,
+        title: "JavaScript",
     },
     {
-        icon: <Computer />,
-        title: "Desarrollo web",
-        description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
+        icon: <FaJava />,
+        title: "Java",
     },
     {
-        icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        icon: <FaPython />,
+        title: "Python",
     },
     {
-        icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        icon: <FaHtml5 />,
+        title: "HTML",
+    },
+    {
+        icon: <GrMysql />,
+        title: "Mysql",
+    },
+    {
+        icon: <SiPostgresql />,
+        title: "Postresql",
+    },
+    {
+        icon: <FaDocker />,
+        title: "Docker",
+    },
+    {
+        icon: <FaReact />,
+        title: "React",
+    },
+    {
+        icon: <SiNextdotjs />,
+        title: "Next",
+    },
+    {
+        icon: <FaNodeJs />,
+        title: "Node",
+    },
+    {
+        icon: <SiVercel />,
+        title: "Vercel",
+    },
+    {
+        icon: <FaGithub />,
+        title: "Github",
+    },
+    {
+        icon: <SiExpress />,
+        title: "Express",
+    },
+    {
+        icon: <SiTailwindcss />,
+        title: "Tailwind",
+    },
+    {
+        icon: <SiTypescript />,
+        title: "TypeScript",
     },
 ];
 
 export const dataPortfolio = [
     {
         id: 1,
-        title: "Web Pro",
+        title: "HTML only",
         image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/JoaquinCampos22155",
+        urlDemo: "http://18.217.0.253/sitios/paginaunohistoria.html",
     },
     {
         id: 2,
-        title: "Desarrollo Web Ágil",
+        title: "Blog de Volley",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/JoaquinCampos22155/proyecto1vr",
+        urlDemo: "http://uwu-guate.site:3856/",
     },
     {
         id: 3,
         title: "Estrategias Web",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 4,
-        title: "Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Webs Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Web Dinámica",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 7,
-        title: "Dark Web ",
-        image: "/image-7.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 8,
-        title: "E-commerce web",
-        image: "/image-8.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/JoaquinCampos22155/lab8CT",
         urlDemo: "#!",
     }
 ];
